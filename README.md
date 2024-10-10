@@ -1,23 +1,22 @@
-<<<<<<< HEAD
-# Tic-Tac-Toe
-||||||| (empty tree)
-=======
-## Getting Started
+## Tic-Tac-Toe game Introduction
+This is a java based Game developed on VS Code.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Project Setup
+- A new Java project named "tic-tac-toe" is created, and necessary files are prepared by removing default lines in the 'app.java' file and creating a 'TicTacToe.java' file for the game code
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
->>>>>>> 53c63c3 (commited)
+### Building the Game Interface
+- The game window is set up using Java's Graphics Library, with specified dimensions and properties including non-resizability and a close operationss.
+- Panels are introduced for the game board and for displaying text, such as current player information and game statusss.
+- A three-by-three grid layout is established for the Tic-Tac-Toe board using a JPanel with buttons representing each tiless.
+### Game Logic Implementation
+- Buttons are initialized with action listeners to set the text to the current player's marker (X or O) when clickeds.
+- The program alternates between players and checks for empty tiles before placing a markers.
+- A check for winners is implemented, examining horizontal, vertical, and diagonal winning conditionsss.
+### Enhancements and Final Features
+- When a player wins, the tiles' colors change to indicate the winner, and a message is displayed on the text labelss.
+- A tie condition is checked by counting the number of turns, and if no winners are found after all tiles are filled, the game denotes a tie with color changes for all tilesss.
+- Adding a restart button and tracking player scoresss.
+### Conclusion
+- The Tic-Tac-Toe game interface is successfully built using Java's Graphics Library, with a clear layout, interactive buttons, and informative text displays for players.
+- The game logic effectively handles player turns, marker placement, and checks for win or tie conditions, creating a functional and engaging game experience.
+- Future improvements, such as adding a restart button and score tracking, are proposed, allowing room for further development and user engagement.
