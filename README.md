@@ -1,5 +1,8 @@
 ## Tic-Tac-Toe game Introduction
 This is a java based Game developed on VS Code.
+#### Technologies used
+- Java
+- Java Swing(Graphic Library): Jpanel, JButton, ActionListener, Grid Layout
 
 ### Project Setup
 - A new Java project named "tic-tac-toe" is created, and necessary files are prepared by removing default lines in the 'app.java' file and creating a 'TicTacToe.java' file for the game code
