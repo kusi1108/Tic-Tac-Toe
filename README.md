@@ -23,3 +23,6 @@ This is a java based Game developed on VS Code.
 - The Tic-Tac-Toe game interface is successfully built using Java's Graphics Library, with a clear layout, interactive buttons, and informative text displays for players.
 - The game logic effectively handles player turns, marker placement, and checks for win or tie conditions, creating a functional and engaging game experience.
 - Future improvements, such as adding a restart button and score tracking, are proposed, allowing room for further development and user engagement.
+
+### Below is the Map representation for better understanding
+![image](https://github.com/user-attachments/assets/5caaeff8-7ff3-4f3d-ac26-f5ae31fad570)
